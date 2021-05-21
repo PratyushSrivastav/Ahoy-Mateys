@@ -14,8 +14,7 @@ function getTranslationURL(input)
 
 function errorHandler(error)
 {
-    console.log("Error! Try again later");
-    alert("Server Over-loaded!Please try again.");
+    alert("Server Over-loaded!Please try again later");
 }
 
 function clickHandler()
