@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #1E293B;
+    --primary:  
+    #047857;
+    --width-break:600px;
+}
+
+body {
+    background-image: url("./images/Sprinkle.svg");
+    font-family: 'Indie Flower',
+        cursive;
+        margin:0px;
+        color: var(--black);
+        font-size: large;
+        } 
+ 
+nav {
+   
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    }
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;    
+    font-weight:bolder;
+    border-radius: 1vh;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+    border-radius: 1rem;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    color: var(--black);
+    font-weight: bolder;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid var(--black);
+    background: scroll;
+    border-radius: 1vh;
+}
+
